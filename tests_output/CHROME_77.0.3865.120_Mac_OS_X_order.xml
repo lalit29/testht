@@ -5,9 +5,9 @@
 
   <testsuite name="order"
     errors="0" failures="0" hostname="" id="" package="order" skipped="0"
-    tests="1" time="30.00" timestamp="">
+    tests="1" time="38.75" timestamp="">
   
-    <testcase name="Order flow " classname="order" time="30.00" assertions="1">
+    <testcase name="Order flow " classname="order" time="38.75" assertions="1">
 
     
     </testcase>
