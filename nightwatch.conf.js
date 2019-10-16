@@ -40,16 +40,16 @@ module.exports={
     //
     },
 
-  //   "chrome" : {
-  //     "desiredCapabilities": {
-  //       "browserName": "chrome"
-  //     },
-  //     'chromeOptions': {
-  //      w3c: false,
-  //      'args': ['--headless', "--window-size=1860,1200"],
-  //   }
+    "chrome" : {
+      "desiredCapabilities": {
+        "browserName": "chrome"
+      },
+      'chromeOptions': {
+       w3c: false,
+       'args': ['--headless', "--window-size=1860,1200"],
+    }
       
-  // },
+  },
 
   chrome : {
 "desiredCapabilities": {
@@ -76,7 +76,8 @@ w3c: false,
 ],
 },
 }
+}
   
-   }
+   
 }
 }
