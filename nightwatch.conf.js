@@ -45,7 +45,8 @@ module.exports={
         "browserName": "chrome"
       },
       'chromeOptions': {
-        'args': ['--headless']
+       w3c: false,
+       'args': ['--headless', "--window-size=1860,1200"],
     }
       
   },
