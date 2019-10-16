@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "nightwatch"
+    "test": "nightwatch",
+    "chrome":"rm -rf tests_output && ./node_modules/.bin/nightwatch --tag pincode  --env chrome --retries 2"
   },
   "keywords": [],
   "author": "",
@@ -12,9 +13,7 @@
   "devDependencies": {
     "chromedriver": "^77.0.0",
     "nightwatch": "^1.2.4",
-    "nightwatch-html-reporter": "^2.0.6"
-  },
-  "dependencies": {
-    "phantom": "^6.3.0"
+    "nightwatch-html-reporter": "^2.0.6",
+    "nodemailer": "^6.3.1"
   }
 }
