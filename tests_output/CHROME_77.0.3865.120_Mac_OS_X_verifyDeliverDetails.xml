@@ -5,11 +5,11 @@
 
   <testsuite name="verifyDeliverDetails"
     errors="0" failures="1" hostname="" id="" package="verifyDeliverDetails" skipped="0"
-    tests="3" time="16.83" timestamp="">
+    tests="3" time="17.48" timestamp="">
   
-    <testcase name="Delivery details" classname="verifyDeliverDetails" time="4.921" assertions="1">  <failure message="Testing if element &lt;//*[@id=&#34;content&#34;]/div/main/section/div[1]/div/div/section[5]/div/div/div[1]/div[1]/a/div[2]/div[2]/span&gt; contains text: &#34;Delivered by 4th Oct&#34; in 1000 ms. - expected [0;32m&#34;Delivered by 4th Oct&#34;[0m but got: [0;31m&#34;Delivered by 30th Oct&#34;[0m">    at Object.Delivery details (/Users/Lalit/Downloads/test12/tests/verifyDeliverDetails.js:11:21)
+    <testcase name="Delivery details" classname="verifyDeliverDetails" time="6.381" assertions="1">  <failure message="Testing if element &lt;//*[@id=&#34;content&#34;]/div/main/section/div[1]/div/div/section[5]/div/div/div[1]/div[1]/a/div[2]/div[2]/span&gt; contains text: &#34;Delivered by 4th Oct&#34; in 1000 ms. - expected [0;32m&#34;Delivered by 4th Oct&#34;[0m but got: [0;31m&#34;Delivered by 30th Oct&#34;[0m">    at Object.Delivery details (/Users/Lalit/Downloads/test12/tests/verifyDeliverDetails.js:11:21)
     at process._tickCallback (internal/process/next_tick.js:68:7)</failure>
-<system-out>[[ATTACHMENT|/Users/Lalit/Downloads/test12/tests_output/screenshots/verifyDeliverDetails/Delivery-details_FAILED_Oct-16-2019-180201-GMT+0530-(India-Standard.png]]</system-out>
+<system-out>[[ATTACHMENT|/Users/Lalit/Downloads/test12/tests_output/screenshots/verifyDeliverDetails/Delivery-details_FAILED_Oct-16-2019-180729-GMT+0530-(India-Standard.png]]</system-out>
     <failure message="    at Object.Delivery details (/Users/Lalit/Downloads/test12/tests/verifyDeliverDetails.js:11:21)">    at process._tickCallback (internal/process/next_tick.js:68:7)</failure>
     </testcase>
   

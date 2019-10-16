@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "nightwatch",
-    "chrome":"rm -rf tests_output && ./node_modules/.bin/nightwatch --tag pincode  --env chrome --retries 2"
+    "chrome":"rm -rf tests_output && ./node_modules/.bin/nightwatch --env chrome --retries 2"
   },
   "keywords": [],
   "author": "",
