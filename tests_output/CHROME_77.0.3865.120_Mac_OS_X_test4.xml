@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuites errors="1"
+<testsuites errors="3"
             failures="0"
-            tests="1">
+            tests="3">
 
   <testsuite name="test4"
-    errors="1" failures="0" hostname="" id="" package="test4" skipped="0"
-    tests="1" time="16.42" timestamp="">
+    errors="3" failures="0" hostname="" id="" package="test4" skipped="0"
+    tests="3" time="63.78" timestamp="">
   
-    <testcase name="SignUp Test" classname="test4" time="16.42" assertions="0">
+    <testcase name="SignUp Test" classname="test4" time="19.17" assertions="0">
     </testcase>
   
 
