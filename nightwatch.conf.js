@@ -37,6 +37,7 @@ module.exports={
     //     "phantomjs.binary.path" : "/path/to/phantomjs",
     //     "phantomjs.cli.args" : ["--ignore-ssl-errors=true"]
     //   }
+    //
     },
 
     "chrome" : {
