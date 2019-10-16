@@ -4,7 +4,7 @@ module.exports={
   "webdriver" : {
     "start_process": true,
     "server_path": "node_modules/.bin/chromedriver",
-    //"server_path": "./bin/geckodriver-0.23",
+    //"server_path": "./bin/geckodriver-0.23",//
     "port": 9515
   },
 
