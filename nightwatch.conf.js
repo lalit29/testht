@@ -40,16 +40,43 @@ module.exports={
     //
     },
 
-    "chrome" : {
-      "desiredCapabilities": {
-        "browserName": "chrome"
-      },
-      'chromeOptions': {
-       w3c: false,
-       'args': ['--headless', "--window-size=1860,1200"],
-    }
+  //   "chrome" : {
+  //     "desiredCapabilities": {
+  //       "browserName": "chrome"
+  //     },
+  //     'chromeOptions': {
+  //      w3c: false,
+  //      'args': ['--headless', "--window-size=1860,1200"],
+  //   }
       
-  },
+  // },
+
+  chrome : {
+"desiredCapabilities": {
+"browserName": "chrome",
+"acceptSslCerts": true,
+"acceptInsecureCerts": true,
+"disable-popup-blocking": true,
+"skip_testcases_on_fail": false,
+"loggingPrefs": {
+"browser": "ALL"
+},
+"acceptSslCerts": true,
+'chromeOptions': {
+w3c: false,
+"args": [
+"disable-web-security",
+"ignore-certificate-errors",
+"--test-type",
+"--disable-gpu",
+"--window-size=1860,1200",
+"--headless",
+// "--screenshot",
+// "--dump-dom"
+],
+},
+}
   
    }
+}
 }
