@@ -43,10 +43,10 @@ module.exports={
       "desiredCapabilities": {
         "browserName": "chrome"
       },
-      'chromeOptions': {
-        'args': ['--headless'],
-        "binary": "/Applications/Google Chrome Canary.app/Contents/MacOS/Google Chrome Canary"
-    }
+    //   'chromeOptions': {
+    //     'args': ['--headless'],
+    //     "binary": "/Applications/Google Chrome Canary.app/Contents/MacOS/Google Chrome Canary"
+    // }
       
   },
   
