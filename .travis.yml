@@ -9,4 +9,4 @@ addons:
 before_install:
   - google-chrome-stable --headless --disable-gpu --disable-extensions --remote-debugging-port=9222 http://localhost &
 script:
-  - xvfb-run ./node_modules/.bin/nightwatch --env chrome
+  - xvfb-run ./node_modules/.bin/nightwatch --tag modal  --env chrome
