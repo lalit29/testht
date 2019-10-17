@@ -23,7 +23,7 @@ module.exports={
 
       //"launchUrl":argv.url,
 
-      "silent" : false,
+      "silent" : true,
       "screenshots" : {
           'enabled': true,
           'on_failure': true,
