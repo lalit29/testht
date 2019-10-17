@@ -5,11 +5,11 @@
 
   <testsuite name="loginTest"
     errors="0" failures="1" hostname="" id="" package="loginTest" skipped="0"
-    tests="3" time="36.56" timestamp="">
+    tests="3" time="36.68" timestamp="">
   
-    <testcase name="Login Test" classname="loginTest" time="11.93" assertions="1">  <failure message="Timed out while waiting for element &lt;//*[@id=&#34;content&#34;]/div/main/div[2]/div/section[2]/div/div[2]/div/div[1]/a&gt; to be present for 5000 milliseconds. - expected [0;32m&#34;visible&#34;[0m but got: [0;31m&#34;not found&#34;[0m">    at Object.Login Test (/Users/Lalit/Downloads/test12/tests/loginTest.js:17:14)
+    <testcase name="Login Test" classname="loginTest" time="11.91" assertions="1">  <failure message="Timed out while waiting for element &lt;//*[@id=&#34;content&#34;]/div/main/div[2]/div/section[2]/div/div[2]/div/div[1]/a&gt; to be present for 5000 milliseconds. - expected [0;32m&#34;visible&#34;[0m but got: [0;31m&#34;not found&#34;[0m">    at Object.Login Test (/Users/Lalit/Downloads/test12/tests/loginTest.js:17:14)
     at process._tickCallback (internal/process/next_tick.js:68:7)</failure>
-<system-out>[[ATTACHMENT|/Users/Lalit/Downloads/test12/tests_output/screenshots/loginTest/Login-Test_FAILED_Oct-17-2019-151838-GMT+0530-(India-Standard.png]]</system-out>
+<system-out>[[ATTACHMENT|/Users/Lalit/Downloads/test12/tests_output/screenshots/loginTest/Login-Test_FAILED_Oct-17-2019-162456-GMT+0530-(India-Standard.png]]</system-out>
     <failure message="    at Object.Login Test (/Users/Lalit/Downloads/test12/tests/loginTest.js:17:14)">    at process._tickCallback (internal/process/next_tick.js:68:7)</failure>
     </testcase>
   
