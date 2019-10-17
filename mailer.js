@@ -24,7 +24,7 @@ console.log('Sending mail to users ...');
 cities.forEach((id) => {
   let mailOptions = {
     ...id,
-    from: 'lsukhwal29@gmail.com',
+    from: 'lsukhwal30@gmail.com',
   };
 
   transporter.sendMail(mailOptions, (error, info) => {
