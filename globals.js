@@ -1,12 +1,62 @@
 var HtmlReporter = require('nightwatch-html-reporter');
+
 var reporter = new HtmlReporter({
-    openBrowser: true,
+    openBrowser: false,
     // reportsDirectory: __dirname + '/reports',
     reportsDirectory: __dirname + '/tests_output',
   //  reportFilename: 'report' + '_' + process.env.__NIGHTWATCH_ENV + '.html',
   //  themeName: 'outlook'
 });
+const zipFolder = require('zip-a-folder');
+const path = require('path');
+const nodemailer = require('nodemailer');
+const config  = require('./config');
+const cities = [
+    {
+      "to": "lalit@hometown.in",
+      "subject": `Test Report ${Date()}`,
+      "text": "Test Report File",
+      "attachments": [
+        {   
+          "filename": "tests_output.zip",
+          "content": "Report",
+          "path": path.join(__dirname, 'tests_output.zip')
+        }
+      ]
+    }
+  ];
 
+let transporter = nodemailer.createTransport(config);
+const origin = path.join(__dirname, 'tests_output');
+const destination = path.join(__dirname, 'tests_output.zip');
+
+class ZipAFolder {
+
+  static main() {
+      zipFolder.zipFolder(origin, destination, function(err) {
+          if(err) {
+              console.log('Something went wrong in zip folder creation !', err);
+          } else {
+            console.log('zip created');
+              console.log('Sending mail to users ...');
+              cities.forEach((id) => {
+              let mailOptions = {
+                  ...id,
+                  from: 'lsukhwal30@gmail.com',
+              };
+
+              transporter.sendMail(mailOptions, (error, info) => {
+                  if (error) {
+                  console.log(error);
+                  } else {
+                  console.log('Done ....');
+                  }
+              });
+              });
+          }
+      });
+  }
+}
 //var allure = require("nightwatch-allure-adapter");
 
 module.exports = {
@@ -68,6 +118,7 @@ module.exports = {
     },
   
     after(cb) {
+      ZipAFolder.main();
       //console.log('GLOBAL AFTER')
       cb();
     },

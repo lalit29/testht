@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Test Results - </title>
+
+  <style>
+    html, body {
+      font-family: Arial,sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    body { padding: 10px 40px; }
+    table { width: 100%; margin-bottom: 20px; }
+      td {
+        padding: 7px;
+        border-top: none;
+        border-left: 1px black solid;
+        border-bottom: 1px black solid;
+        border-right: none;
+      }
+      td.pass { color: #003b07; background: #86e191; }
+      td.skip { color: #7d3a00; background: #ffd24a; }
+      td.fail { color: #5e0e00; background: #ff9c8a; }
+    tr:last-child       { border-top: 1px black solid; }
+      tr:last-child td    { border-top: 1px black solid; }
+      tr:first-child td   { border-top: 1px black solid; }
+        td:last-child       { border-right: 1px black solid; }
+    tr.overview td      { padding-bottom: 0px; border-bottom: none; }
+    tr.overview.last td { padding-bottom: 3px; }
+    ul.assertions   { list-style-type: none; }
+      span.error      { color: #AD2B2B; }
+      span.success    { color: #53891E; }
+    .stacktrace { display: inline; }
+      .stacktrace code { display: none; }
+    #nightwatch-logo {
+      position: absolute;
+      top: 20px;
+      right: 33px;
+      width: 70px;
+      height: 75px;
+      background: transparent url('http://nightwatchjs.org/img/logo-nightwatch.png') no-repeat;
+      background-size: 70px 75px;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Test Results</h1>
+
+  <table border="0" cellpadding="0" cellspacing="0">
+    <tr class="overview">
+      <td colspan="3" title=""><strong>Browser:</strong> </td>
+    </tr>
+    <tr class="overview">
+      <td colspan="3"><strong>Timestamp:</strong> Sat Oct 19 2019 19:38:52 GMT+0530 (India Standard Time)</td>
+    </tr>
+    <tr class="overview last">
+      <td colspan="3"><strong>Tests:</strong> 0<br></td>
+    </tr>
+    <tr>
+      <td class="pass"><strong>2</strong> passed</td>
+      <td class="skip"><strong>4</strong> errors</td>
+      <td class="fail"><strong>2</strong> failures</td>
+    </tr>
+  </table>
+
+      <h2>modal</h2>
+
+        <h3>modal Test</h3>
+        <ul class="assertions">
+        </ul>
+
+        <p>
+            <span class="success"><strong>OK.</strong></span>
+            <span class="success"><strong>0</strong></span> assertions passed. (16.51s)
+        </p>
+
+
+      <hr>
+      <h2>loginTest</h2>
+
+        <h3>Login Test</h3>
+        <ul class="assertions">
+            <li>
+                <span class="success">&#10004;</span>
+
+              Element &lt;//*[@id&#x3D;&quot;content&quot;]/div/main/div[2]/div/section[2]/div/div[2]/div/div[1]/a&gt; was visible after 34 milliseconds.
+
+
+            </li>
+        </ul>
+
+        <p>
+            <span class="success"><strong>OK.</strong></span>
+            <span class="success"><strong>1</strong></span> assertions passed. (16.14s)
+        </p>
+
+
+      <hr>
+      <h2>order</h2>
+
+        <h3>Order flow </h3>
+        <ul class="assertions">
+            <li>
+                <span class="success">&#10004;</span>
+
+              Testing if element &lt;//*[@id&#x3D;&quot;content&quot;]/div/main/section/div[1]/div/div/section/div/div/div/div[2]/div[2]/div[1]/section/div/div/h1&gt; contains text: &quot;Chatni Vati Stainless steel Katori in Silver Colour by Living Essence&quot;  - 284 ms.
+
+
+            </li>
+        </ul>
+
+        <p>
+            <span class="success"><strong>OK.</strong></span>
+            <span class="success"><strong>1</strong></span> assertions passed. (41.20s)
+        </p>
+
+
+      <hr>
+      <h2>testQuickView</h2>
+
+        <h3>QuickView Test</h3>
+        <ul class="assertions">
+            <li>
+                <span class="error">&#10006;</span>
+
+              Testing if element &lt;/html/body/div[7]/div/div/div/div/div[2]/div[1]/h1/a&gt; contains text: &quot;Mattress Daisy PU Foam Queen Bed (78*60*4) in Maroon Colour by HomeTown&quot;. Element could not be located in 1000 ms. - expected [0;32m&quot;Mattress Daisy PU Foam Queen Bed (78*60*4) in Maroon Colour by HomeTown&quot;[0m but got: [0;31m&quot;null&quot;[0m
+
+                Expected &quot;Mattress Daisy PU Foam Queen Bed (78*60*4) in Maroon Colour by HomeTown&quot; but got: &quot;null&quot;
+
+            </li>
+        </ul>
+
+        <p>
+            <span class="error"><strong>FAILED:</strong></span>
+            <span class="error"><strong>1</strong></span> assertions failed and
+            <span class="success"><strong>0</span></strong> passed. (10.77s)
+        </p>
+
+
+      <hr>
+      <h2>verifyDeliverDetails</h2>
+
+        <h3>Delivery details</h3>
+        <ul class="assertions">
+            <li>
+                <span class="error">&#10006;</span>
+
+              Testing if element &lt;//*[@id&#x3D;&quot;content&quot;]/div/main/section/div[1]/div/div/section[5]/div/div/div[1]/div[1]/a/div[2]/div[2]/span&gt; contains text: &quot;Delivered by 4th Oct&quot; in 1000 ms. - expected [0;32m&quot;Delivered by 4th Oct&quot;[0m but got: [0;31m&quot;Delivered by 2nd Nov&quot;[0m
+
+                Expected &quot;Delivered by 4th Oct&quot; but got: &quot;Delivered by 2nd Nov&quot;
+
+            </li>
+        </ul>
+
+        <p>
+            <span class="error"><strong>FAILED:</strong></span>
+            <span class="error"><strong>1</strong></span> assertions failed and
+            <span class="success"><strong>0</span></strong> passed. (4.675s)
+        </p>
+
+
+      <hr>
+      <h2>test4</h2>
+
+        <h3>SignUp Test</h3>
+        <ul class="assertions">
+        </ul>
+
+        <p>
+            <span class="success"><strong>OK.</strong></span>
+            <span class="success"><strong>0</strong></span> assertions passed. (24.24s)
+        </p>
+
+
+      <hr>
+
+  <div id="nightwatch-logo"></div>
+
+  <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+  <script>
+  $(function() {
+    $('div.stacktrace').on('click', 'a', function(evt) {
+      evt.preventDefault();
+      var $link = $(this);
+      var $code = $link.parent().find('code');
+      $code.is(':visible') ? $link.text('hide stacktrace'):
+                             $link.text('view stacktrace');
+      $code.toggle();
+    });
+  });
+  </script>
+</body>
+</html>

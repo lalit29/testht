@@ -1,6 +1,6 @@
 module.exports = {
     '@tags': ['sign'],
-    '@disabled': false,
+    '@disabled': true,
     'SignUp Test'(browser) {
         console.log(browser.options.desiredCapabilities.browserName);
         browser
