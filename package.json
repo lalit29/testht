@@ -21,6 +21,9 @@
     "nodemailer": "^6.3.1"
   },
   "dependencies": {
+    "testarmada-magellan": "^11.0.6",
+    "testarmada-magellan-local-executor": "^2.0.3",
+    "testarmada-magellan-nightwatch-plugin": "^8.0.9",
     "zip-a-folder": "0.0.9"
   }
 }

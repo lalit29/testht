@@ -1,0 +1,6 @@
+{
+    "framework": "testarmada-magellan-nightwatch-plugin",
+    "max_workers": 10,
+    "max_test_attempts": 3,
+    "executors": ["testarmada-magellan-local-executor"]
+  }
