@@ -30,7 +30,8 @@ module.exports={
           'enabled': true,
           'on_failure': true,
           'on_error': true,
-          'path': 'tests_output/screenshots',
+          'path':'file:///home/travis/build/lalit29/test1234/tests_output/screenshots'
+         // 'path': 'tests_output/screenshots',
       },
     //   "desiredCapabilities" : {
     //     "browserName" : "phantomjs",
