@@ -4,7 +4,8 @@ var reporter = new HtmlReporter({
     openBrowser: false,
     // reportsDirectory: __dirname + '/reports',
     //reportsDirectory: 'tests_output',
-    reportsDirectory: path.join(__dirname, 'tests_output'),
+   reportsDirectory: path.join(__dirname, 'tests_output'),
+   relativeScreenshots: true,
     
   //  reportFilename: 'report' + '_' + process.env.__NIGHTWATCH_ENV + '.html',
   //  themeName: 'outlook'
@@ -64,7 +65,7 @@ class ZipAFolder {
 module.exports = {
 
   
-  relativeScreenshots: true,
+  //relativeScreenshots: true,
     // this controls whether to abort the test execution when an assertion failed and skip the rest
     // it's being used in waitFor commands and expect assertions
     abortOnAssertionFailure: true,
@@ -138,6 +139,9 @@ module.exports = {
   //   write : function(results, options, done) {
   //     reporter.fn(results, done);
   // }
-    reporter: reporter.fn
+  // write : function(results, options, done) {
+  //   reporter.fn(results, done);
+  // }
+  reporter: reporter.fn
     // reporter: allure.write
   };

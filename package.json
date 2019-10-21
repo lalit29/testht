@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "nightwatch",
+    "test": "./node_modules/.bin/nightwatch  --env chrome --tag login  --reporter html-reporter.js ",
     "mail": "node mailer.js",
     "zip": "node zipIt.js",
     "start": "npm run chrome && npm run zip && npm run mail",
@@ -21,7 +21,6 @@
     "nodemailer": "^6.3.1"
   },
   "dependencies": {
-    
     "zip-a-folder": "0.0.9"
   }
 }
