@@ -3,7 +3,7 @@ var HtmlReporter = require('nightwatch-html-reporter');
 var reporter = new HtmlReporter({
     openBrowser: false,
     // reportsDirectory: __dirname + '/reports',
-    reportsDirectory: __dirname + '/tests_output',
+    reportsDirectory: 'tests_output',
   //  reportFilename: 'report' + '_' + process.env.__NIGHTWATCH_ENV + '.html',
   //  themeName: 'outlook'
 });

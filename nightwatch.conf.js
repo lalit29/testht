@@ -30,8 +30,8 @@ module.exports={
           'enabled': true,
           'on_failure': true,
           'on_error': true,
+         // 'path': 'tests_output/screenshots',
           'path': 'tests_output/screenshots',
-          //'path':__dirname + 'tests_output/screenshots',
       },
     //   "desiredCapabilities" : {
     //     "browserName" : "phantomjs",
@@ -73,7 +73,7 @@ w3c: false,
 "--test-type",
 "--disable-gpu",
 "--window-size=1860,1200",
-"--headless",
+//"--headless",
 // "--screenshot",
 // "--dump-dom"
 ],
