@@ -30,7 +30,6 @@ module.exports={
           'enabled': true,
           'on_failure': true,
           'on_error': true,
-          //'path':'home/travis/build/lalit29/test1234/tests_output/screenshots'
          'path': 'tests_output/screenshots',
       },
     //   "desiredCapabilities" : {
@@ -73,7 +72,7 @@ w3c: false,
 "--test-type",
 "--disable-gpu",
 "--window-size=1860,1200",
-//"--headless",
+"--headless",
 // "--screenshot",
 // "--dump-dom"
 ],
