@@ -13,7 +13,7 @@ module.exports = {
             browser.pause(1000)
             //.waitForElementVisible('/html/body/div[7]/div/div/div/div/input', 3000)
             browser.end();
-          
+          //
     }
   };
   
