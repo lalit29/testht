@@ -9,4 +9,4 @@ addons:
 before_install:
   - google-chrome-stable --headless --disable-gpu --disable-extensions --remote-debugging-port=9222 http://localhost &
 script:
-  - xvfb-run rm -rf tests_output.zip rm -rf tests_output && ./node_modules/.bin/nightwatch  --env chrome  --reporter html-reporter.js
+  - xvfb-run rm -rf tests_output.zip rm -rf tests_output && ./node_modules/.bin/nightwatch  --env chrome  --retries 2 --reporter html-reporter.js

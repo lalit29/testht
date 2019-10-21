@@ -8,7 +8,7 @@
     "mail": "node mailer.js",
     "zip": "node zipIt.js",
     "start": "npm run chrome && npm run zip && npm run mail",
-    "chrome": "rm -rf tests_output.zip rm -rf tests_output && ./node_modules/.bin/nightwatch  --env chrome  --reporter html-reporter.js "
+    "chrome": "rm -rf tests_output.zip rm -rf tests_output && ./node_modules/.bin/nightwatch  --env chrome  --retries 2 --reporter html-reporter.js "
   },
   "keywords": [],
   "author": "",
