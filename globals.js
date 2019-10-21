@@ -1,14 +1,16 @@
 var HtmlReporter = require('nightwatch-html-reporter');
-
+const path = require('path');
 var reporter = new HtmlReporter({
     openBrowser: false,
     // reportsDirectory: __dirname + '/reports',
-    reportsDirectory: 'tests_output',
+    //reportsDirectory: 'tests_output',
+    reportsDirectory: path.join(__dirname, 'tests_output'),
+    
   //  reportFilename: 'report' + '_' + process.env.__NIGHTWATCH_ENV + '.html',
   //  themeName: 'outlook'
 });
 const zipFolder = require('zip-a-folder');
-const path = require('path');
+
 const nodemailer = require('nodemailer');
 const config  = require('./config');
 const cities = [
