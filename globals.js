@@ -26,7 +26,19 @@ const cities = [
           "path": path.join(__dirname, 'tests_output.zip')
         }
       ]
-    }
+    },
+    // {
+    //   "to": "deep.pathak@hometown.in",
+    //   "subject": `Test Report ${Date()}`,
+    //   "text": "Test Report File",
+    //   "attachments": [
+    //     {   
+    //       "filename": "tests_output.zip",
+    //       "content": "Report",
+    //       "path": path.join(__dirname, 'tests_output.zip')
+    //     }
+    //   ]
+    // }
   ];
 
 let transporter = nodemailer.createTransport(config);
