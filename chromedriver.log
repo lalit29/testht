@@ -1,7 +1,12 @@
 Starting ChromeDriver 77.0.3865.40 (f484704e052e0b556f8030b65b953dce96503217-refs/branch-heads/3865@{#442}) on port 9515
 Only local connections are allowed.
 Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
-[1576040630.294][WARNING]: This version of ChromeDriver has not been tested with Chrome version 78.
-[1576040630.294][WARNING]: This version of ChromeDriver has not been tested with Chrome version 78.
-[1576040630.326][WARNING]: This version of ChromeDriver has not been tested with Chrome version 78.
-[1576040650.158][WARNING]: This version of ChromeDriver has not been tested with Chrome version 78.
+[1576055389.597][WARNING]: This version of ChromeDriver has not been tested with Chrome version 78.
+[1576055389.600][WARNING]: This version of ChromeDriver has not been tested with Chrome version 78.
+[1576055389.617][WARNING]: This version of ChromeDriver has not been tested with Chrome version 78.
+[1576055390.558][WARNING]: This version of ChromeDriver has not been tested with Chrome version 78.
+[1576055390.561][WARNING]: This version of ChromeDriver has not been tested with Chrome version 78.
+[1576055390.562][WARNING]: This version of ChromeDriver has not been tested with Chrome version 78.
+[1576055407.931][WARNING]: This version of ChromeDriver has not been tested with Chrome version 78.
+[1576055488.929][WARNING]: This version of ChromeDriver has not been tested with Chrome version 78.
+[1576055580.130][WARNING]: This version of ChromeDriver has not been tested with Chrome version 78.
